@@ -1,16 +1,22 @@
-Mein Ernährungstracker V3
+MEIN ERNÄHRUNGSTRACKER V4
 
-Neu in V3:
-- Mahlzeiten direkt aus dem Tagebuch als Rezept speichern
-- Gespeicherte Rezepte über + > Rezepte wieder eintragen
-- Portionsfaktor frei wählbar (z. B. 0,5 / 1 / 1,5 / 2)
-- Rezeptname ändern und Rezepte löschen
-- Alle V2-Daten bleiben erhalten (gleicher localStorage-Schlüssel)
+Neu in V4:
+- Fotoaufnahme / Bildauswahl im Ernährungstracker
+- Lokale Lebensmittel-KI im Browser mit Transformers.js
+- Food-101-Klassifikation mit bis zu 5 Vorschlägen
+- Foto bleibt lokal auf dem Gerät; für die Analyse werden Modell-Dateien vom Hugging Face Hub geladen
+- Ein KI-Vorschlag kann direkt an die Produktsuche übergeben werden
+- Bestehende V1/V2/V3-Daten werden weiterverwendet
 
-Weiterhin enthalten:
-- Open Food Facts Produktsuche
-- Barcode-Scanner
-- Favoriten / zuletzt verwendet
-- Eigene Lebensmittel
-- Gewicht und Ziele
-- Lokale Datenspeicherung
+WICHTIG:
+1. Die Foto-KI erkennt den allgemeinen Gerichtstyp, nicht zuverlässig einzelne Zutaten oder Portionsgrößen.
+2. Beim ersten Einsatz wird ein quantisiertes Modell von ca. 60 MB geladen. Spätere Analysen können den Browser-Cache verwenden.
+3. Nährwerte werden weiterhin über Open Food Facts bzw. manuelle Eingabe bestimmt.
+4. Tagebuch, Gewicht, Favoriten und Rezepte werden lokal im Browser gespeichert.
+5. Packungsangaben und selbst gewogene Mengen haben Vorrang vor Schätzungen.
+
+Drittanbieter:
+- Open Food Facts
+- html5-qrcode 2.3.8 (Apache-2.0)
+- Transformers.js 3.8.1
+- onnx-community/swin-finetuned-food101-ONNX (Apache-2.0)
