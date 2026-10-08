@@ -1,25 +1,33 @@
-MEIN ERNÄHRUNGSTRACKER V4.1
+MEIN ERNÄHRUNGSTRACKER V5
 
-Neu in V4.1:
-- Food-101-Klassifikation durch SmolVLM-256M-Instruct ersetzt
-- erkennt mehrere sichtbare Lebensmittel in einem Foto
-- schätzt die Menge jedes Bestandteils in Gramm
-- Name und Grammzahl vor dem Eintragen korrigierbar
-- Nährwerte werden je erkanntem Bestandteil über die bestehende Suche ausgewählt
-- nach dem Eintragen springt die App zurück zur Foto-Liste, damit der nächste Bestandteil verarbeitet werden kann
-- Bild wird vor der Analyse lokal verkleinert und bleibt auf dem Gerät
-- Vision-Modell läuft lokal über WebGPU
+V5 ist bewusst wieder eine reine Handy-/Browser-App ohne Foto-KI, Python oder PC-Server.
 
-WICHTIG:
-1. Die Foto-KI benötigt WebGPU.
-2. Beim ersten Einsatz werden je nach GPU-Datentyp ungefähr 190–270 MB Modell-Dateien geladen.
-3. Grammangaben aus einem einzelnen Foto sind Schätzwerte und müssen kontrolliert werden.
-4. Modell-Dateien kommen von Hugging Face; Transformers.js wird von jsDelivr geladen. Das Foto wird nicht an einen KI-Inferenzdienst gesendet.
-5. Tagebuch, Gewicht, Favoriten, Rezepte und eigene Lebensmittel bleiben im localStorage unter dem bestehenden Schlüssel erhalten.
-6. Nährwerte aus Open Food Facts können fehlerhaft sein; Packungsangaben haben Vorrang.
+Neu in V5:
+- neuer Bereich „Schnell“ als Standard beim + Button
+- „Zuletzt gegessen“ speichert jetzt auch die letzte Menge und Mahlzeit
+- „Nochmal“ trägt den letzten Eintrag mit genau dieser Menge mit einem Klick für heute ein
+- gespeicherte Mahlzeiten/Rezepte können mit „1× heute“ direkt eingetragen werden
+- Portionstasten: -10, 50 g, 100 g, 150 g, 200 g, 250 g, +10
+- zuletzt verwendete Menge wird beim erneuten Auswählen automatisch vorgeschlagen
+- Foto-KI und alle Modell-/WebGPU-Abhängigkeiten vollständig entfernt
+- bestehende Daten bleiben erhalten, da derselbe localStorage-Schlüssel weiterverwendet wird
+
+Weiterhin enthalten:
+- Open Food Facts Produktsuche
+- Barcode-Scanner
+- Favoriten
+- eigene Lebensmittel
+- Rezepte / gespeicherte Mahlzeiten
+- Tagebuch
+- Gewicht und Gewichtskurve
+- Datenexport
+- Offline-PWA für die Kernoberfläche
+
+Hinweise:
+- Produktsuche und erstmalige Barcode-Abfragen benötigen Internet.
+- Tagebuch, Favoriten, Rezepte, Gewicht und eigene Lebensmittel liegen lokal im Browser.
+- Nährwerte aus Open Food Facts können fehlerhaft sein; Packungsangaben haben Vorrang.
 
 Drittanbieter:
 - Open Food Facts
 - html5-qrcode 2.3.8
-- Hugging Face Transformers.js 3.8.1
-- HuggingFaceTB/SmolVLM-256M-Instruct (Apache-2.0)
