@@ -1,16 +1,12 @@
-Mein Ernährungstracker V13
+Mein Ernährungstracker V14
 
-Neu in V13:
-- Eigener Hauptbereich „Rezepte“ in der Navigation
-- 500 integrierte Rezepte
-- Rezeptkategorien und Schnellfilter
-- High Protein, Frühstück, Bowls & Salate, Pasta & Reis, Wraps & Sandwiches, Suppen & Eintöpfe, Airfryer, vegetarisch, vegan, schnell, günstig, Snacks & Desserts
-- Küchenfilter: deutsch, mediterran, italienisch, asiatisch, mexikanisch, international
-- Favoriten und Bewertungen bleiben erhalten
-- Zufallsrezept
-- Rezeptliste lädt schrittweise, damit 500 Rezepte auf dem Handy flüssig bleiben
-- Wochenplanung nutzt die erweiterte V13-Rezeptdatenbank
-- V12-Daten und Backups bleiben kompatibel
+Neu in V14:
+- Eigene Rezepte vollständig anlegen und bearbeiten
+- Zutaten mit Menge und Nährwerten verwalten
+- Basis-Portionen und Zubereitungsschritte speichern
+- Portionsrechner für Datenbank- und eigene Rezepte
+- Meal-Prep-Bestand mit verbleibenden Portionen
+- Vorratsliste und Rezeptvorschläge passend zum Vorrat
+- Alle V13-Funktionen und die 500er-Rezeptdatenbank bleiben erhalten
 
-Installation:
-Alle Dateien in das Root-Verzeichnis des GitHub-Pages-Repositories hochladen und vorhandene Dateien ersetzen.
+Daten bleiben weiterhin lokal im Browser unter dem bestehenden Speicher meinTrackerV1.
