@@ -1,13 +1,16 @@
-Mein Ernährungstracker V12
+Mein Ernährungstracker V13
 
-Neu in V12:
-- 150 lokale Rezepte (34 V11 + 116 neue Varianten)
-- Rezeptfavoriten und Bewertungen „Mag ich“ / „Nicht nochmal“
-- Automatische Wochenplanung Montag–Sonntag mit skalierbaren Portionen
-- Profilfilter und Rezeptbewertungen fließen in die Wochenplanung ein
-- Wochenplan bleibt in normalen geplanten Tagebucheinträgen gespeichert
-- Einkaufsliste nach Kategorien, inklusive Kopierfunktion
-- Verbesserter Rezeptbrowser mit Favoriten-, Bewertungs- und Zeitfilter
-- V11-Funktionen bleiben erhalten
+Neu in V13:
+- Eigener Hauptbereich „Rezepte“ in der Navigation
+- 500 integrierte Rezepte
+- Rezeptkategorien und Schnellfilter
+- High Protein, Frühstück, Bowls & Salate, Pasta & Reis, Wraps & Sandwiches, Suppen & Eintöpfe, Airfryer, vegetarisch, vegan, schnell, günstig, Snacks & Desserts
+- Küchenfilter: deutsch, mediterran, italienisch, asiatisch, mexikanisch, international
+- Favoriten und Bewertungen bleiben erhalten
+- Zufallsrezept
+- Rezeptliste lädt schrittweise, damit 500 Rezepte auf dem Handy flüssig bleiben
+- Wochenplanung nutzt die erweiterte V13-Rezeptdatenbank
+- V12-Daten und Backups bleiben kompatibel
 
-Daten bleiben lokal im Browser. Der localStorage-Schlüssel meinTrackerV1 bleibt unverändert.
+Installation:
+Alle Dateien in das Root-Verzeichnis des GitHub-Pages-Repositories hochladen und vorhandene Dateien ersetzen.
