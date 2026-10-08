@@ -1,18 +1,15 @@
-Mein Ernährungstracker V6
+Mein Ernährungstracker V7
+==========================
 
-Neu in V6:
-- Tagebucheinträge direkt bearbeiten
-- Einzelne Mahlzeiten auf ein anderes Datum kopieren
-- Gesamten Tag auf ein anderes Datum kopieren
-- Kalenderwochen-Navigation im Tagebuch
-- Wochenübersicht mit Ø Kalorien, Eiweiß, Kohlenhydraten und Fett
-- Tageswerte der ganzen Woche auf einen Blick
-- Backup als JSON exportieren
-- Backup wieder importieren
-- Alle Funktionen aus V5 bleiben erhalten
+Neu in V7:
+- eigener Planungsbereich fuer kommende Tage
+- geplante Lebensmittel/Mahlzeiten getrennt von gegessen
+- Tagesvorschau fuer kcal, Eiweiss, Kohlenhydrate und Fett
+- geplante Eintraege als gegessen markieren
+- vorigen Tag als Plan uebernehmen
+- Plan fuer einen Tag leeren
+- Schnell-Eintraege und Rezepte direkt in die Planung
+- bestehende V6-Daten und Backups bleiben kompatibel
 
-Wichtig:
-Die App verwendet weiterhin den localStorage-Schlüssel meinTrackerV1. Vorhandene Daten aus V1 bis V5 bleiben deshalb erhalten.
-
-GitHub Pages:
-Alle Dateien aus diesem Ordner in das Repository-Root hochladen.
+Installation GitHub Pages:
+Alle Dateien aus diesem Ordner in das Root des bestehenden Repositorys hochladen und vorhandene Dateien ersetzen.
