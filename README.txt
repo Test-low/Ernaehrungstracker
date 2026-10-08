@@ -1,12 +1,13 @@
-Mein Ernährungstracker V11
+Mein Ernährungstracker V12
 
-Neu in V11:
-- Lokales Profil mit Aktivität, Ziel, Ernährungsweise, Kochzeit, Budget, Allergien/Abneigungen und Küchengeräten
-- Optionale persönliche Zielberechnung mit Bestätigung vor Übernahme
-- Lokale konkrete Rezeptdatenbank ohne Cloud-KI
-- Rezeptvorschläge anhand Profil und verbleibender Tagesziele
-- Rezepte direkt als geplant oder gegessen eintragen
-- Rezeptbrowser mit Suche und Mahlzeitenfilter
-- V10-Funktionen bleiben erhalten
+Neu in V12:
+- 150 lokale Rezepte (34 V11 + 116 neue Varianten)
+- Rezeptfavoriten und Bewertungen „Mag ich“ / „Nicht nochmal“
+- Automatische Wochenplanung Montag–Sonntag mit skalierbaren Portionen
+- Profilfilter und Rezeptbewertungen fließen in die Wochenplanung ein
+- Wochenplan bleibt in normalen geplanten Tagebucheinträgen gespeichert
+- Einkaufsliste nach Kategorien, inklusive Kopierfunktion
+- Verbesserter Rezeptbrowser mit Favoriten-, Bewertungs- und Zeitfilter
+- V11-Funktionen bleiben erhalten
 
-Daten bleiben lokal im Browser. Der bestehende localStorage-Schlüssel meinTrackerV1 bleibt unverändert.
+Daten bleiben lokal im Browser. Der localStorage-Schlüssel meinTrackerV1 bleibt unverändert.
