@@ -1,16 +1,12 @@
-Mein Ernährungstracker V10
+Mein Ernährungstracker V11
 
-Neu in V10:
-- kompakte Home-Übersicht mit kcal, Makros und Gewicht
-- smarte Restziel-Vorschläge aus eigenen Lebensmitteln und Rezepten
-- zusätzliche Nährwerte: Ballaststoffe, Zucker, gesättigte Fettsäuren, Salz
-- eigene Portionsgrößen dauerhaft pro Lebensmittel speichern
-- Produktvergleich pro 100 g und pro gewählter Portion
-- bessere Gewichtsauswertung: 7 Tage, 30 Tage, Wochenrate und Ziel-Fortschritt
-- wiederkehrende Mahlzeiten aus gespeicherten Rezepten/Vorlagen
-- Einkaufsliste aus Tages- oder Wochenplanung
-- automatische Mahlzeiten-Vorlagen aus häufig gemeinsam gegessenen Lebensmitteln
-- V9-Daten und ältere Backups bleiben kompatibel
+Neu in V11:
+- Lokales Profil mit Aktivität, Ziel, Ernährungsweise, Kochzeit, Budget, Allergien/Abneigungen und Küchengeräten
+- Optionale persönliche Zielberechnung mit Bestätigung vor Übernahme
+- Lokale konkrete Rezeptdatenbank ohne Cloud-KI
+- Rezeptvorschläge anhand Profil und verbleibender Tagesziele
+- Rezepte direkt als geplant oder gegessen eintragen
+- Rezeptbrowser mit Suche und Mahlzeitenfilter
+- V10-Funktionen bleiben erhalten
 
-Hinweis: Erweiterte Nährwerte sind nur so vollständig wie die jeweilige Produktquelle. Fehlende Werte werden nicht geschätzt.
-Daten bleiben lokal im Browser. Produktsuche und Barcode benötigen Internet.
+Daten bleiben lokal im Browser. Der bestehende localStorage-Schlüssel meinTrackerV1 bleibt unverändert.
