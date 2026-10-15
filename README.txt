@@ -1,12 +1,6 @@
-Mein Ernährungstracker V14
+Ernährungstracker Simple
 
-Neu in V14:
-- Eigene Rezepte vollständig anlegen und bearbeiten
-- Zutaten mit Menge und Nährwerten verwalten
-- Basis-Portionen und Zubereitungsschritte speichern
-- Portionsrechner für Datenbank- und eigene Rezepte
-- Meal-Prep-Bestand mit verbleibenden Portionen
-- Vorratsliste und Rezeptvorschläge passend zum Vorrat
-- Alle V13-Funktionen und die 500er-Rezeptdatenbank bleiben erhalten
+Nur vier Bereiche: Heute, Tagebuch, Rezepte, Profil.
+Beim ersten Start werden aus dem alten meinTrackerV1 nur gegessene Tagebucheinträge, Gewicht, Profil und Ziele übernommen. Die alte Datenbank bleibt unverändert.
 
-Daten bleiben weiterhin lokal im Browser unter dem bestehenden Speicher meinTrackerV1.
+Rezepte: 1000 insgesamt.
